@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A8BF08A2BB2152800D3B5DD /* AutoChangeImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF0892BB2152800D3B5DD /* AutoChangeImgView.swift */; };
+		8A8BF08C2BB234B900D3B5DD /* CuisineSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF08B2BB234B800D3B5DD /* CuisineSelectionView.swift */; };
+		8A8BF08F2BB23F9B00D3B5DD /* RecipePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF08E2BB23F9A00D3B5DD /* RecipePageView.swift */; };
+		8A8BF0912BB3663900D3B5DD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF0902BB3663900D3B5DD /* ButtonView.swift */; };
+		8A8BF0932BB386ED00D3B5DD /* RecipeInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF0922BB386ED00D3B5DD /* RecipeInstructionView.swift */; };
+		8A8BF0952BB4B4A100D3B5DD /* FromCuisineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BF0942BB4B4A100D3B5DD /* FromCuisineView.swift */; };
+		8AF4436A2B9FBED60008E951 /* RemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443692B9FBED60008E951 /* RemyApp.swift */; };
+		8AF4436C2B9FBED60008E951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4436B2B9FBED60008E951 /* ContentView.swift */; };
+		8AF4436E2B9FBED60008E951 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4436D2B9FBED60008E951 /* Item.swift */; };
+		8AF443702B9FBEDB0008E951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF4436F2B9FBEDB0008E951 /* Assets.xcassets */; };
+		8AF443732B9FBEDB0008E951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF443722B9FBEDB0008E951 /* Preview Assets.xcassets */; };
+		8AF443822BA13DBF0008E951 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443812BA13DBF0008E951 /* LoginView.swift */; };
+		8AF443842BA1416C0008E951 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443832BA1416C0008E951 /* InputView.swift */; };
+		8AF443862BA1FD6C0008E951 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443852BA1FD6C0008E951 /* RegistrationView.swift */; };
+		8AF443882BA27F120008E951 /* PersonalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443872BA27F120008E951 /* PersonalizationView.swift */; };
+		8AF4438C2BA7B0B50008E951 /* SelectOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4438B2BA7B0B40008E951 /* SelectOptionsView.swift */; };
+		8AF4438E2BA7BDAC0008E951 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF4438D2BA7BDAC0008E951 /* SliderView.swift */; };
+		8AF443932BA904220008E951 /* ForYouImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443922BA904220008E951 /* ForYouImageView.swift */; };
+		8AF443952BABE4F50008E951 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443942BABE4F40008E951 /* MainPageView.swift */; };
+		8AF443972BAFE6BA0008E951 /* AutoChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF443962BAFE6BA0008E951 /* AutoChangeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A8BF0892BB2152800D3B5DD /* AutoChangeImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoChangeImgView.swift; sourceTree = "<group>"; };
+		8A8BF08B2BB234B800D3B5DD /* CuisineSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineSelectionView.swift; sourceTree = "<group>"; };
+		8A8BF08E2BB23F9A00D3B5DD /* RecipePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePageView.swift; sourceTree = "<group>"; };
+		8A8BF0902BB3663900D3B5DD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8A8BF0922BB386ED00D3B5DD /* RecipeInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInstructionView.swift; sourceTree = "<group>"; };
+		8A8BF0942BB4B4A100D3B5DD /* FromCuisineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromCuisineView.swift; sourceTree = "<group>"; };
+		8AF443662B9FBED60008E951 /* Remy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF443692B9FBED60008E951 /* RemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemyApp.swift; sourceTree = "<group>"; };
+		8AF4436B2B9FBED60008E951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AF4436D2B9FBED60008E951 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8AF4436F2B9FBEDB0008E951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AF443722B9FBEDB0008E951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AF443812BA13DBF0008E951 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8AF443832BA1416C0008E951 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		8AF443852BA1FD6C0008E951 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8AF443872BA27F120008E951 /* PersonalizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationView.swift; sourceTree = "<group>"; };
+		8AF4438B2BA7B0B40008E951 /* SelectOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOptionsView.swift; sourceTree = "<group>"; };
+		8AF4438D2BA7BDAC0008E951 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		8AF443922BA904220008E951 /* ForYouImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouImageView.swift; sourceTree = "<group>"; };
+		8AF443942BABE4F40008E951 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		8AF443962BAFE6BA0008E951 /* AutoChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoChangeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF443632B9FBED60008E951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A8BF08D2BB23F8500D3B5DD /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				8A8BF08E2BB23F9A00D3B5DD /* RecipePageView.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		8AF4435D2B9FBED60008E951 = {
+			isa = PBXGroup;
+			children = (
+				8AF443682B9FBED60008E951 /* Remy */,
+				8AF443672B9FBED60008E951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF443672B9FBED60008E951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443662B9FBED60008E951 /* Remy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF443682B9FBED60008E951 /* Remy */ = {
+			isa = PBXGroup;
+			children = (
+				8AF4437D2BA13C6A0008E951 /* App */,
+				8AF4437C2BA13C680008E951 /* Components */,
+				8AF4437B2BA13C650008E951 /* Core */,
+				8AF4437A2BA13C620008E951 /* Model */,
+				8AF4436D2B9FBED60008E951 /* Item.swift */,
+				8AF4436F2B9FBEDB0008E951 /* Assets.xcassets */,
+				8AF443712B9FBEDB0008E951 /* Preview Content */,
+			);
+			path = Remy;
+			sourceTree = "<group>";
+		};
+		8AF443712B9FBEDB0008E951 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443722B9FBEDB0008E951 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AF4437A2BA13C620008E951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AF4437B2BA13C650008E951 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A8BF08D2BB23F8500D3B5DD /* Recipe */,
+				8AF4438F2BA8D82E0008E951 /* Main */,
+				8AF443802BA13D6D0008E951 /* Profile */,
+				8AF4437F2BA13D600008E951 /* Authentication */,
+				8AF4437E2BA13D350008E951 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8AF4437C2BA13C680008E951 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443832BA1416C0008E951 /* InputView.swift */,
+				8AF4438B2BA7B0B40008E951 /* SelectOptionsView.swift */,
+				8AF4438D2BA7BDAC0008E951 /* SliderView.swift */,
+				8AF443922BA904220008E951 /* ForYouImageView.swift */,
+				8AF443962BAFE6BA0008E951 /* AutoChangeView.swift */,
+				8A8BF0892BB2152800D3B5DD /* AutoChangeImgView.swift */,
+				8A8BF08B2BB234B800D3B5DD /* CuisineSelectionView.swift */,
+				8A8BF0902BB3663900D3B5DD /* ButtonView.swift */,
+				8A8BF0922BB386ED00D3B5DD /* RecipeInstructionView.swift */,
+				8A8BF0942BB4B4A100D3B5DD /* FromCuisineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8AF4437D2BA13C6A0008E951 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443692B9FBED60008E951 /* RemyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8AF4437E2BA13D350008E951 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8AF4436B2B9FBED60008E951 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8AF4437F2BA13D600008E951 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443812BA13DBF0008E951 /* LoginView.swift */,
+				8AF443852BA1FD6C0008E951 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8AF443802BA13D6D0008E951 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443872BA27F120008E951 /* PersonalizationView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8AF4438F2BA8D82E0008E951 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8AF443942BABE4F40008E951 /* MainPageView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF443652B9FBED60008E951 /* Remy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF443762B9FBEDB0008E951 /* Build configuration list for PBXNativeTarget "Remy" */;
+			buildPhases = (
+				8AF443622B9FBED60008E951 /* Sources */,
+				8AF443632B9FBED60008E951 /* Frameworks */,
+				8AF443642B9FBED60008E951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remy;
+			productName = Remy;
+			productReference = 8AF443662B9FBED60008E951 /* Remy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF4435E2B9FBED60008E951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8AF443652B9FBED60008E951 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8AF443612B9FBED60008E951 /* Build configuration list for PBXProject "Remy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF4435D2B9FBED60008E951;
+			productRefGroup = 8AF443672B9FBED60008E951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF443652B9FBED60008E951 /* Remy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF443642B9FBED60008E951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF443732B9FBEDB0008E951 /* Preview Assets.xcassets in Resources */,
+				8AF443702B9FBEDB0008E951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF443622B9FBED60008E951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8BF08A2BB2152800D3B5DD /* AutoChangeImgView.swift in Sources */,
+				8AF4436C2B9FBED60008E951 /* ContentView.swift in Sources */,
+				8A8BF0912BB3663900D3B5DD /* ButtonView.swift in Sources */,
+				8A8BF0932BB386ED00D3B5DD /* RecipeInstructionView.swift in Sources */,
+				8AF4438C2BA7B0B50008E951 /* SelectOptionsView.swift in Sources */,
+				8AF4436E2B9FBED60008E951 /* Item.swift in Sources */,
+				8AF443932BA904220008E951 /* ForYouImageView.swift in Sources */,
+				8AF4438E2BA7BDAC0008E951 /* SliderView.swift in Sources */,
+				8AF443972BAFE6BA0008E951 /* AutoChangeView.swift in Sources */,
+				8AF443842BA1416C0008E951 /* InputView.swift in Sources */,
+				8AF443952BABE4F50008E951 /* MainPageView.swift in Sources */,
+				8A8BF0952BB4B4A100D3B5DD /* FromCuisineView.swift in Sources */,
+				8AF443862BA1FD6C0008E951 /* RegistrationView.swift in Sources */,
+				8A8BF08C2BB234B900D3B5DD /* CuisineSelectionView.swift in Sources */,
+				8AF443822BA13DBF0008E951 /* LoginView.swift in Sources */,
+				8AF443882BA27F120008E951 /* PersonalizationView.swift in Sources */,
+				8A8BF08F2BB23F9B00D3B5DD /* RecipePageView.swift in Sources */,
+				8AF4436A2B9FBED60008E951 /* RemyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AF443742B9FBEDB0008E951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF443752B9FBEDB0008E951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF443772B9FBEDB0008E951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remy.Remy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AF443782B9FBEDB0008E951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remy.Remy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF443612B9FBED60008E951 /* Build configuration list for PBXProject "Remy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF443742B9FBEDB0008E951 /* Debug */,
+				8AF443752B9FBEDB0008E951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF443762B9FBEDB0008E951 /* Build configuration list for PBXNativeTarget "Remy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF443772B9FBEDB0008E951 /* Debug */,
+				8AF443782B9FBEDB0008E951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF4435E2B9FBED60008E951 /* Project object */;
+}
